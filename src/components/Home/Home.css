@@ -1,0 +1,32 @@
+Home{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+.home__container{
+    display: grid;
+    grid-template-columns: 50% 35%;
+    gap: 15%;
+    margin-top: 5rem;
+}
+.home__content .home__title h5{
+    font-family: 'VALORANT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+    color: linear-gradient(273.4deg, #F7F7F2 7.49%, rgba(255, 255, 255, 0) 104.86%);
+}
+.home__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--text-p);
+}
+.home__logo{
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;    
+}
+.home__logo-img{
+    overflow: hidden;
+}

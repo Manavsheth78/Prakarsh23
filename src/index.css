@@ -40,6 +40,11 @@ body {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
 
 /* ========= medium device media query============= */
 @media screen and (max-width: 1024px) {
