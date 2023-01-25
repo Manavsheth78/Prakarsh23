@@ -58,3 +58,40 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+@media screen and (max-width: 1024px) {
+  .home__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .home__logo {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .home__logo-img p {
+    font-size: 30px;
+  }
+  
+  .home__content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home__logo {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .home__content {
+    text-align: center;
+  }
+  .home__content .home__title h5 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 55px;
+  }
+  .home__content p {
+    margin: 1.5rem 0;
+  }
+}
