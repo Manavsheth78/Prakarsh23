@@ -34,7 +34,7 @@ body {
   line-height: 1.7;
   font-family: "Arapey", sans-serif;
 }
-section{
+section {
   margin-top: 8rem;
 }
 /*======general css======*/
@@ -43,7 +43,7 @@ section{
   width: var(--container-width-lg);
   margin: 0 auto;
 }
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
