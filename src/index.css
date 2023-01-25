@@ -34,6 +34,9 @@ body {
   line-height: 1.7;
   font-family: "Arapey", sans-serif;
 }
+section{
+  margin-top: 8rem;
+}
 /*======general css======*/
 
 .container {

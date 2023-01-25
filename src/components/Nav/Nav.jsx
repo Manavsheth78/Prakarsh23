@@ -4,7 +4,7 @@ import IMG from "../../assets/logo.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 const Nav = () => {
   return (
-    <section id="Navbar">
+    <nav >
       <div class="max-width">
         <div class="logo">
           <img src={IMG} />
@@ -35,8 +35,9 @@ const Nav = () => {
           </li>
         </ul>
       </div>
-    </section>
-  );
-};
+    </nav>
+  )
+}
 
-export default Nav;
+export default Nav
+

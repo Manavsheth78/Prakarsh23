@@ -1,26 +1,24 @@
-#Navbar {
-  position: fixed;
+nav{
+  /* position: fixed; */
   width: 100%;
-  z-index: 999;
   padding: 30px 0;
   font-family: "Syncopate", sans-serif;
   transition: var(--transition);
 }
-#Navbar .max-width {
+ .max-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#Navbar .max-width .logo img{
+ .max-width .logo img {
   width: 35px;
   margin: 2rem 0 0 2rem;
-  
 }
-#Navbar .max-width .menu li {
+.max-width .menu li {
   list-style: none;
   display: inline-block;
 }
-#Navbar .max-width .menu li a {
+.max-width .menu li a {
   display: block;
   color: var(--text-p);
   font-size: 18px;
@@ -29,8 +27,7 @@
   padding: 0;
   transition: color 0.3s ease;
 }
-#Navbar .icon{
- font-size: 25px;
- font-weight: bolder;
- 
+.icon {
+  font-size: 25px;
+  font-weight: bolder;
 }
