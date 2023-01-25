@@ -4,7 +4,7 @@
   z-index: 999;
   padding: 30px 0;
   font-family: "Syncopate", sans-serif;
-  transition: all 0.3s ease;
+  transition: var(--transition);
 }
 #Navbar .max-width {
   display: flex;
@@ -32,5 +32,5 @@
 #Navbar .icon{
  font-size: 25px;
  font-weight: bolder;
- margin-top: -2rem;
+ 
 }
