@@ -21,6 +21,7 @@ const Home = () => {
         <div className="home__logo">
           <div className="home__logo-img">
             <img src={IMG} alt="" />
+            <p>1-2 April</p>
           </div>
         </div>
       </div>

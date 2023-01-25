@@ -1,8 +1,11 @@
 .home__container {
   display: grid;
   grid-template-columns: 50% 35%;
-  gap: 20%;
-  margin-top: -4rem;
+  gap: 15%;
+  margin-top: -7rem;
+}
+.home__content {
+  margin-left: 3rem;
 }
 .home__content .home__title h5 {
   font-family: "VALORANT";
@@ -10,14 +13,18 @@
   font-weight: 400;
   font-size: 70px;
   line-height: 110px;
-  color: linear-gradient(
+  background: linear-gradient(
     273.4deg,
     #f7f7f2 7.49%,
     rgba(255, 255, 255, 0) 104.86%
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .home__content p {
-  margin: 2rem 0 2.6rem;
+  margin: 0 0 2.6rem;
   color: var(--text-p);
   text-align: center;
   font-size: 20px;
@@ -31,4 +38,23 @@
 }
 .home__logo-img {
   overflow: hidden;
+}
+.home__logo-img p {
+  position: absolute;
+  font-family: "Valorant";
+  font-size: 50px;
+  bottom: 8rem;
+  right: 10rem;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    #00fd65 1.25%,
+    #00fd65 1.26%,
+    rgba(0, 253, 101, 0.841667) 1.27%,
+    rgba(0, 253, 101, 0) 69.7%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

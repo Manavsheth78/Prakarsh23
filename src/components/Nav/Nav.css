@@ -1,17 +1,17 @@
-nav{
+nav {
   /* position: fixed; */
   width: 100%;
   padding: 30px 0;
   font-family: "Syncopate", sans-serif;
   transition: var(--transition);
 }
- .max-width {
+.max-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
- .max-width .logo img {
-  width: 35px;
+.max-width .logo img {
+  width: 43px;
   margin: 2rem 0 0 2rem;
 }
 .max-width .menu li {
