@@ -8,23 +8,11 @@
   margin-left: 3rem;
 }
 .home__content .home__title h5 {
-  font-family: "VALORANT";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 110px;
-  background: linear-gradient(
-    273.4deg,
-    #f7f7f2 7.49%,
-    rgba(255, 255, 255, 0) 104.86%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  width: 90%;
+  margin: 1rem 0 1rem 0;
 }
 .home__content p {
-  margin: 0 0 2.6rem;
+  margin: 2rem 0 2.6rem;
   color: var(--text-p);
   text-align: center;
   font-size: 20px;
@@ -60,12 +48,12 @@
   }
   28%,
   33% {
-    color: #1fff78;
+    color: var(--text-p);
     text-shadow: none;
   }
   82%,
   97% {
-    color: #00fd62;
+    color: var(--text-p);
     text-shadow: none;
   }
 }
@@ -247,28 +235,61 @@
 }
 @media screen and (max-width: 1024px) {
   .home__container {
-    grid-template-columns: 1fr;
-    gap: 0;
+    gap: 5rem;
   }
   .home__logo {
     width: 50%;
     margin: 2rem auto 4rem;
   }
-
-  .home__logo-img p {
-    font-size: 30px;
+  .home__content {
+    margin-right: 2rem;
   }
+  .home__logo {
+    width: 85%;
+  }
+
+  /* .home__logo-img p {
+    font-size: 30px;
+  } */
 
   .home__content p {
     margin: 1rem 0 1.5rem;
   }
+  .home__content .glow {
+    margin-left: 8rem;
+  }
 }
+@media screen and (max-width: 936px) {
+  .home__container {
+    gap: 5rem;
+  }
+  .home__logo {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .home__content .home__title h5 {
+    font-size: 35px;
+    line-height: 50px;
+  }
 
+  /* .home__logo-img p {
+    font-size: 30px;
+  } */
+
+  .home__content p {
+    font-size: 20px;
+    margin: 1rem 0 1.5rem;
+  }
+  .home__content .glow {
+    margin-left: 6rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .home__container {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .home__logo {
     width: 65%;
     margin: 0 auto 3rem;
@@ -279,16 +300,15 @@
   }
   .home__content {
     text-align: center;
-  }
-  .home__content .home__title h5 {
-    text-align: center;
-    font-size: 38px;
-    line-height: 45px;
-    margin-right: 2rem;
+    margin-top: -6rem;
   }
   .home__content p {
     margin: 1.5rem 0;
     margin-right: 2rem;
     line-height: 30px;
+  }
+  .home__content .glow {
+    margin-left: 6rem;
+    margin-top: 3rem;
   }
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import "./Home.css";
 import IMG from "../../assets/logo.png";
+import Title from "../../assets/title.png";
 const Home = () => {
   return (
     <section id="home">
       <div className="container home__container">
         <div className="home__content">
           <div className="home__title">
-            <h5>Welcome to prakarsh'23</h5>
+            <img src={Title} />
           </div>
           <p>
             Prakarsh ‘23’s vision is to assist the rural areas, and villages and
