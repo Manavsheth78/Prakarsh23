@@ -1,0 +1,8 @@
+h5 {
+  
+}
+.about__container {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  gap: 15%;
+}
