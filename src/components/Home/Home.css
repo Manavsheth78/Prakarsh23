@@ -1,8 +1,12 @@
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
 .home__container {
   display: grid;
   grid-template-columns: 50% 35%;
   gap: 15%;
-  margin-top: -7rem;
+  margin-top: -3rem;
 }
 .home__content {
   margin-left: 3rem;
@@ -20,6 +24,8 @@
 }
 .home__content .glow {
   font-family: "VALORANT";
+  /* font-family: "Clip"; */
+  text-transform: uppercase;
   font-size: 35px;
   text-align: center;
   margin-left: 16rem;

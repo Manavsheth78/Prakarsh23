@@ -3,7 +3,7 @@ import "./About.css";
 import SVG from "../../assets/about.png";
 const About = () => {
   return (
-    <section id="about">
+    <section id="About">
       <h5>About us</h5>
       <div className="container about__container">
         <div className="about__content">
