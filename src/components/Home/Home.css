@@ -10,17 +10,24 @@
 }
 .home__content {
   margin-left: 3rem;
+  float: left;
+  justify-content: center;
+  align-items: center;
 }
-.home__content .home__title h5 {
-  width: 90%;
+.home__content .home__title {
+  float: left;
+  width: 100vh;
   margin: 1rem 0 1rem 0;
+  /* display: ; */
 }
-.home__content p {
+.home__content .home__desc {
   margin: 2rem 0 2.6rem;
   color: var(--text-p);
   text-align: center;
   font-size: 20px;
   line-height: 45px;
+  position: relative;
+  /* display: block; */
 }
 .home__content .glow {
   font-family: "VALORANT";
@@ -29,6 +36,8 @@
   font-size: 35px;
   text-align: center;
   margin-left: 16rem;
+  position: absolute;
+  top: 82%;
   background-image: radial-gradient(
     ellipse 35% 30% at 50% 50%,
     #33ff85,
@@ -227,6 +236,7 @@
   bottom: 8rem;
   right: 10rem;
   align-items: center;
+
   background: linear-gradient(
     180deg,
     #00fd65 1.25%,
@@ -286,9 +296,9 @@
     font-size: 20px;
     margin: 1rem 0 1.5rem;
   }
-  .home__content .glow {
+  /* .home__content .glow {
     margin-left: 6rem;
-  }
+  } */
 }
 @media screen and (max-width: 600px) {
   .home__container {
@@ -298,23 +308,13 @@
 
   .home__logo {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: -3rem auto 0rem;
   }
   .home__logo-img p {
     margin-bottom: 18rem;
     right: 8rem;
   }
-  .home__content {
-    text-align: center;
-    margin-top: -6rem;
-  }
-  .home__content p {
-    margin: 1.5rem 0;
-    margin-right: 2rem;
-    line-height: 30px;
-  }
-  .home__content .glow {
-    margin-left: 6rem;
-    margin-top: 3rem;
+  .home__content .home__title {
+    width: 90%;
   }
 }
