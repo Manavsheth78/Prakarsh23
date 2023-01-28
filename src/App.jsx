@@ -7,6 +7,7 @@ import Loader from "./components/Loader/Loader";
 import Glimps from "./components/Glimps/Glimps";
 import Team from "./components/Team/Team";
 import Event from "./components/Events/Event";
+import Sponsor from "./components/Sponsor/Sponsor";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <About />
         <Event />
         <Team />
+        <Sponsor />
         <Glimps />
         <Footer />
       </Suspense>
