@@ -10,7 +10,7 @@ const Home = () => {
           <div className="home__title">
             <img src={Title} />
           </div>
-          <p>
+          <p className="home__desc">
             Prakarsh ‘23’s vision is to assist the rural areas, and villages and
             to encourage them in the advancement of their lives through
             technologies developed in Prakarsh by students.{" "}
@@ -19,7 +19,7 @@ const Home = () => {
             <span class="fast-flicker">co</span>mi
             <span class="flicker">n</span>gs<span class="flicker">oo</span>n
           </div>
-          <div className="home__btn"></div>
+          {/* <div className="home__btn"></div> */}
         </div>
         <div className="home__logo">
           <div className="home__logo-img">
