@@ -3,11 +3,20 @@ h5 {
   font-size: 30px;
   position: absolute;
   left: 42%;
-  margin-top: -1rem;
+  margin-top: -5rem;
   font-family: "valorant";
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-sizing: border-box;
   /* color: var(--text-s); */
   width: fit-content;
   border: 1px solid #fff;
+  background: linear-gradient(
+    111.17deg,
+    rgba(255, 255, 255, 0.04) 0.84%,
+    rgba(255, 255, 255, 0.01) 63.92%
+  );
+  mix-blend-mode: normal;
   background: linear-gradient(
     180deg,
     #3fd72c 38.75%,
@@ -17,20 +26,34 @@ h5 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
 }
 .about__container {
   display: grid;
-  grid-template-columns: 50% 35%;
-  gap: 15%;
-  margin-top: 6rem;
+  grid-template-columns: 50% 45%;
+  gap: 10%;
 }
 .about__content {
   font-family: "Ubuntu";
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   width: fit-content;
   border: 1px solid #fff;
   padding: 2rem;
+  line-height: 25px;
+  background: linear-gradient(
+    111.17deg,
+    rgba(255, 255, 255, 0.04) 0.84%,
+    rgba(255, 255, 255, 0.01) 63.92%
+  );
+  mix-blend-mode: normal;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
 }
 .about__content p {
   padding: 1rem;
+}
+.about__container .about__img {
+  width: 100%;
+  margin-top: 4rem;
 }
