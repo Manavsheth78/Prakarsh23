@@ -1,16 +1,6 @@
-h5 {
+.heading {
   text-align: center;
-  font-size: 30px;
-  position: absolute;
-  left: 42%;
-  margin-top: -5rem;
   font-family: "valorant";
-  border-radius: 15px;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  /* color: var(--text-s); */
-  width: fit-content;
-  border: 1px solid #fff;
   background: linear-gradient(
     111.17deg,
     rgba(255, 255, 255, 0.04) 0.84%,
@@ -25,13 +15,14 @@ h5 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
 }
 .about__container {
   display: grid;
   grid-template-columns: 50% 45%;
   gap: 10%;
+  display: flex;
+  margin-top: 3rem;
 }
 .about__content {
   font-family: "Ubuntu";
@@ -56,4 +47,33 @@ h5 {
 .about__container .about__img {
   width: 100%;
   margin-top: 4rem;
+}
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    flex-direction: column-reverse;
+  }
+  .about__img {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__img {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+  .about__content p {
+    margin: 1.5rem 0;
+  }
 }
