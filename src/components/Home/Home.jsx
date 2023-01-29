@@ -15,6 +15,10 @@ const Home = () => {
             to encourage them in the advancement of their lives through
             technologies developed in Prakarsh by students.{" "}
           </p>
+          <div className="glow">
+            <span class="fast-flicker">co</span>mi
+            <span class="flicker">n</span>gs<span class="flicker">oo</span>n
+          </div>
           <div className="home__btn"></div>
         </div>
 
@@ -23,10 +27,6 @@ const Home = () => {
             <img src={IMG} alt="" />
             {/* <p>1-2 April</p> */}
           </div>
-        </div>
-        <div className="glow">
-          <span class="fast-flicker">co</span>mi
-          <span class="flicker">n</span>gs<span class="flicker">oo</span>n
         </div>
       </div>
     </section>

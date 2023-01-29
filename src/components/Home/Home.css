@@ -31,7 +31,6 @@
     #33ff85,
     transparent
   );
-  transform: translate(-50%, -50%);
   color: var(--text-p);
   text-shadow: 0 0 0.6rem #5cff99, 0 0 1.5rem #33ff85,
     -0.2rem 0.1rem 1rem #1fff78, 0.2rem 0.1rem 1rem #00fd65,
