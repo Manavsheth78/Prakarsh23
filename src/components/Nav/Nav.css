@@ -19,6 +19,7 @@ nav {
   display: inline-block;
 }
 .max-width .menu li a {
+  text-decoration: none;
   display: block;
   color: var(--text-p);
   font-size: 18px;
