@@ -17,7 +17,7 @@ const App = () => {
         <About />
         <Event />
         <Team />
-        <Sponsor />
+        <Sponsor/>
         <Glimps />
         <Footer />
       </Suspense>
