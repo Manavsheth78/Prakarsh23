@@ -3,7 +3,7 @@ import './Sponsor.css'
 
 function Sponsor() {
   return (
-    <Carousel>
+    <Carousel id='sponser'>
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto d-block"
