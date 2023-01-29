@@ -4,6 +4,10 @@
   font-family: valorant;
   src: url(../../Prakarsh23/src/assets/ValorantFont.ttf);
 }
+@font-face {
+  font-family: clips;
+  src: url(../../Prakarsh23/src/assets/Clip.ttf);
+}
 * {
   margin: 0;
   padding: 0;
