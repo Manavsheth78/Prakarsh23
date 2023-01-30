@@ -7,7 +7,7 @@ function Sponsor() {
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto d-block"
-          src="assests/Sponsor/Title.svg"
+          src="assests/Sponsor/title.png"
           alt="First slide"
         />
       </Carousel.Item>
@@ -21,7 +21,7 @@ function Sponsor() {
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto d-block"
-          src="assests/Sponsor/PLATINUM-SPONSOR.png"
+          src="assests/Sponsor/Platinum.svg"
           alt="Third slide"
         />
       </Carousel.Item>
