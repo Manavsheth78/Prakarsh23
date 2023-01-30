@@ -1,13 +1,5 @@
 import React from 'react'
-import './Footer.css'
-const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
-
-export default Footerimport React from 'react'
-import "./footer.css"
+import "./Footer.css"
 import 'boxicons'
 
 const Footer = () => {
