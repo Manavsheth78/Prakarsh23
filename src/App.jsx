@@ -3,11 +3,11 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
-import Glimps from "./components/Glimps/Glimps";
 import Team from "./components/Team/Team";
 import Event from "./components/Events/Event";
 import Sponsor from "./components/Sponsor/Sponsor";
 import { NavBar } from "./components/Nav/NavBar";
+import Glimpse from "./components/Glimpse/Glimpse";
 const App = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const App = () => {
         <Event />
         <Team />
         <Sponsor />
-        <Glimps />
+        <Glimpse />
         <Footer />
       </Suspense>
     </>

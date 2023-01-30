@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Arapey&family=Syncopate&family=Ubuntu:wght@300&display=swap");
 @font-face {
   font-family: valorant;
-  src: url(../../Prakarsh23/src/assets/ValorantFont.ttf);
+  src: url(../src/assets/ValorantFont.ttf);
 }
 @font-face {
   font-family: clips;
-  src: url(../../Prakarsh23/src/assets/Clip.ttf);
+  src: url(../src/assets/Clip.ttf);
 }
 * {
   margin: 0;
