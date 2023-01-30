@@ -24,7 +24,11 @@ const Home = () => {
         </div>
 
         <div className="home__logo">
-          <div className="home__logo-img">
+          <div
+            className="home__logo-img"
+            data-aos="zoom-in-down"
+            data-aos-mirror="true"
+          >
             <img src={IMG} alt="" />
             {/* <p>1-2 April</p> */}
           </div>

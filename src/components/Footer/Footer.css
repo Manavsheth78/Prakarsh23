@@ -1,8 +1,8 @@
 .footer {
   display: grid;
   grid-template-columns: 50% 35%;
-  gap: 15%;
-  margin-top: 10rem;
+  gap: 10%;
+  /* margin-top: 10rem; */
   background: black;
 }
 .ficons {
@@ -11,6 +11,7 @@
 
 .left {
   width: 90%;
+  justify-self: center;
 }
 
 .right h1 {
@@ -30,13 +31,18 @@
 
 @media (max-width: 600px) {
   .footer {
+    display: grid;
     grid-template-columns: 1fr;
     background: black;
     box-sizing: border-box;
-    height: 25vh;
+    height: 60vh;
+    align-items: center;
+    /* justify-content: space-around; */
   }
   .left {
-    width: 50vw;
+    width: 100%;
+    /* align-self: center; */
+    justify-self: center;
   }
   .right {
     font-size: 50%;
