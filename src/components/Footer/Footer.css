@@ -33,7 +33,7 @@
     grid-template-columns: 1fr;
     background: black;
     box-sizing: border-box;
-    height: 25%;
+    height: 25vh;
   }
   .left {
     width: 50vw;
