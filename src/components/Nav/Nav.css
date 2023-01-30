@@ -5,7 +5,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
-  font-family: "valorant";
+  font-family: "valorant" !important ;
 }
 
 @media (max-width: 900px) {
@@ -40,6 +40,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  font-family: "valorant";
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -53,7 +54,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 span.navbar-text {
