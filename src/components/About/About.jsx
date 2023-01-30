@@ -4,12 +4,23 @@ import SVG from "../../assets/about.png";
 const About = () => {
   return (
     <section id="About">
-      <h2 className="heading">About us</h2>
+      <div className="heading">
+        <h2
+          className="abouthead"
+          data-aos="zoom-out"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+        >
+          About us
+        </h2>
+      </div>
       <div className="container about__container">
         <div
           className="about__content"
           data-aos="fade-right"
           data-aos-offset="300"
+          data-aos-delay="700"
           data-aos-easing="ease-in-sine"
         >
           <p>
@@ -31,7 +42,7 @@ const About = () => {
           data-aos="fade-left"
           // data-aos-anchor="#example-anchor"
           data-aos-offset="300"
-          data-aos-delay="1000"
+          data-aos-delay="500"
           data-aos-duration="300"
         >
           <div className="img">
