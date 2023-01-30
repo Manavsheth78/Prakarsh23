@@ -4,6 +4,7 @@ import footer from "../../assets/footer.png";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { AiFillPhone } from "react-icons/ai";
+// import { belowfooterlogo } from "../../assets/belowfooterlogo.png";
 
 const Footer = () => {
   return (
@@ -33,6 +34,10 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        {/* <hr />
+        <div className="belowhr">
+          <img src={belowfooterlogo} />
+        </div> */}
       </div>
     </section>
   );

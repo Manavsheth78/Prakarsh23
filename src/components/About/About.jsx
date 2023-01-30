@@ -6,7 +6,12 @@ const About = () => {
     <section id="About">
       <h2 className="heading">About us</h2>
       <div className="container about__container">
-        <div className="about__content">
+        <div
+          className="about__content"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <p>
             Sardar Vallabhbhai Patel Institute of Technology, Vasad, has emerged
             as the chieftain among the premiere institutes of Gujarat for the
@@ -21,7 +26,14 @@ const About = () => {
             of 40 events, which will incorporate fun activities with ardour.
           </p>
         </div>
-        <div className="about__img">
+        <div
+          className="about__img"
+          data-aos="fade-left"
+          // data-aos-anchor="#example-anchor"
+          data-aos-offset="300"
+          data-aos-delay="1000"
+          data-aos-duration="300"
+        >
           <div className="img">
             <img src={SVG} alt="" />
           </div>
