@@ -1,11 +1,11 @@
-nav.navbar {
+nav.avbar {
   padding: 18px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
-  font-family: "valorant";
+  
 }
 
 @media (max-width:900px) {
@@ -40,6 +40,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  font-family: "valorant";
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
