@@ -54,7 +54,16 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /* text-fill-color: transparent; */
+  font-family: "Valorant";
+
+  color: var(--text-p);
+  text-shadow: 0 0 1px #5cff99, 0 0 2px #33ff85, 0.1px 0.2px #1fff78,
+    0.2px 0.1px #00fd65, 0 -1px 1px #00fd62, 0 0.5px 2px #00cc52;
+  animation: shine 1s forwards, flicker 1s infinite;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 span.navbar-text {
