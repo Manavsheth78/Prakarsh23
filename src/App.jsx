@@ -19,7 +19,7 @@ const App = () => {
         <Team />
         <Sponsor/>
         <Glimps />
-        <Footer />
+        {/* <Footer /> */}
       </Suspense>
     </>
   );
