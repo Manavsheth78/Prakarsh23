@@ -1,7 +1,7 @@
-.heading {
+.heading .abouthead {
   text-align: center;
   font-family: "valorant";
-  background: linear-gradient(
+  /* background: linear-gradient(
     111.17deg,
     rgba(255, 255, 255, 0.04) 0.84%,
     rgba(255, 255, 255, 0.01) 63.92%
@@ -11,12 +11,25 @@
     180deg,
     #3fd72c 38.75%,
     rgba(49, 87, 44, 0) 78.85%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  ); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   background-clip: text;
   box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+  /* position: relative; */
+  width: 100%;
+  position: relative;
+  /* overflow: hidden; */
+  /* height: 18.75rem; */
+  /* margin-bottom: -5rem; */
+  font-size: 500%;
+  color: black;
+
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00fd65;
 }
+
 .about__container {
   display: grid;
   grid-template-columns: 50% 45%;
