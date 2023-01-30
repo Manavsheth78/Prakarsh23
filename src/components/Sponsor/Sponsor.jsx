@@ -6,8 +6,8 @@ function Sponsor() {
     <Carousel id='sponser'>
       <Carousel.Item interval={2000}>
         <img
-          className="mx-auto d-block"
-          src="assests/Sponsor/title.png"
+          className="mx-auto c-block"
+          src="assests/Sponsor/TITLE.png"
           alt="First slide"
         />
       </Carousel.Item>
