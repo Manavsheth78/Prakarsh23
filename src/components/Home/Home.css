@@ -1,7 +1,13 @@
+#home {
+  width: 100vw;
+  overflow: hidden;
+}
+
 .home__container {
   display: grid;
   grid-template-columns: 50% 35%;
   gap: 15%;
+  overflow: hidden;
   margin-top: 10rem;
 }
 .home__content {

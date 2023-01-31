@@ -1,11 +1,12 @@
 nav.navbar {
   padding: 18px 0;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
   font-family: "valorant" !important ;
+  overflow: hidden;
 }
 
 @media (max-width: 900px) {
