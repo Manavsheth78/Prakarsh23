@@ -62,7 +62,7 @@ function Team() {
   return (
     <section className="project" id="project">
       <Container>
-        <div className="heading">
+        <div className="heading head">
           <h2
             className="abouthead mx-auto"
             // data-aos="zoom-out"
@@ -72,7 +72,7 @@ function Team() {
           >
             Team
           </h2>
-          <h2 className="front-text mx-auto"> Team</h2>
+          <h2 className="front-text mx-auto">Team</h2>
         </div>
         <Row>
           <Col size={12}>
