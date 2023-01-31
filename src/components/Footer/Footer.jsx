@@ -4,16 +4,18 @@ import footer from "../../assets/footer.png";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { AiFillPhone } from "react-icons/ai";
-// import { belowfooterlogo } from "../../assets/belowfooterlogo.png";
+import svit from '../../assets/svitlogo.png'
 
-const Footer = () => {
+function Footer() {
   return (
-    <section id="footer">
-      <div className="footer">
-        <div className=" left">
+    <div className="footer">
+
+          {/* Column1 */}
+          <div className="col">
           <img src={footer} />
-        </div>
-        <div className="right">
+          </div>
+          {/* Column2 */}
+          <div className="right">
           <h1>
             <b> contact us </b>{" "}
           </h1>
@@ -33,14 +35,17 @@ const Footer = () => {
               <AiFillPhone className="ficons" /> 0123456789{" "}
             </a>
           </div>
-        </div>
-        {/* <hr />
-        <div className="belowhr">
-          <img src={belowfooterlogo} />
-        </div> */}
       </div>
-    </section>
+      <hr />
+      <div className="btm">
+      <img src={svit}/>
+      <p className="col-sm">
+             SARDAR VALLABHBHAI PATEL INSTITUTE OF TECHNOLOGY
+      </p>
+      </div>
+          
+    </div>
   );
-};
+}
 
 export default Footer;

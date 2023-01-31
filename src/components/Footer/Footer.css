@@ -4,6 +4,11 @@
   gap: 10%;
   /* margin-top: 10rem; */
   background: black;
+  color: white;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 .ficons {
   margin: 15px;
@@ -28,6 +33,14 @@
   text-decoration: none;
   color: white;
 }
+ .btm img{
+  width: 25px;
+}
+.btm{
+  align-items: center;
+  display: inline;
+  font-size: 15px;
+}
 
 @media (max-width: 600px) {
   .footer {
@@ -36,13 +49,15 @@
     background: black;
     box-sizing: border-box;
     height: 60vh;
+    gap: 0;
     align-items: center;
     /* justify-content: space-around; */
   }
-  .left {
+  .left img{
     width: 100%;
     /* align-self: center; */
     justify-self: center;
+    padding: 3px 15px;
   }
   .right {
     font-size: 50%;
