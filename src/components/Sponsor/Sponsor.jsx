@@ -1,9 +1,21 @@
-import Carousel from 'react-bootstrap/Carousel';
-import './Sponsor.css'
+import Carousel from "react-bootstrap/Carousel";
+import "./Sponsor.css";
 
 function Sponsor() {
   return (
-    <Carousel id='sponser'>
+    <Carousel id="sponser">
+      <div className="heading">
+        <h2
+          className="abouthead"
+          // data-aos="zoom-out"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-out"
+          // data-aos-delay="500"
+        >
+          Sponser
+        </h2>
+        <h2 className="front-text"> Sponsor</h2>
+      </div>
       <Carousel.Item interval={2000}>
         <img
           className="mx-auto c-block"
@@ -12,11 +24,11 @@ function Sponsor() {
         />
       </Carousel.Item>
       <Carousel.Item interval={2000}>
-          <img
-            className="mx-auto d-block"
-            src="assests/Sponsor/POWEREDBY-SPONSOR.png"
-            alt="Second slide"
-          />
+        <img
+          className="mx-auto d-block"
+          src="assests/Sponsor/POWEREDBY-SPONSOR.png"
+          alt="Second slide"
+        />
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
@@ -31,14 +43,13 @@ function Sponsor() {
           src="assests/Sponsor/GOLD-SPONSOR.png"
           alt="Fourth slide"
         />
-      <Carousel.Item interval={2000}>
-        <img
-          className="mx-auto d-block"
-          src="assests/Sponsor/SILVER-SPONSOR.png"
-          alt="Fifth slide"
-        />
-      </Carousel.Item>
-      
+        <Carousel.Item interval={2000}>
+          <img
+            className="mx-auto d-block"
+            src="assests/Sponsor/SILVER-SPONSOR.png"
+            alt="Fifth slide"
+          />
+        </Carousel.Item>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
@@ -54,8 +65,6 @@ function Sponsor() {
           alt="Seventh slide"
         />
       </Carousel.Item>
-      
-      
     </Carousel>
   );
 }
