@@ -60,9 +60,20 @@ const Events = [
 ];
 const Glimpse = () => {
   return (
-    <>
+    <section id="Glimpse">
       <div className="gdiv">
-        <h1 className="heading">GLIMPSE</h1>
+        <div className="heading">
+          <h2
+            className="abouthead"
+            // data-aos="zoom-out"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-out"
+            // data-aos-delay="500"
+          >
+            Glimpse
+          </h2>
+          <h2 className="front-text"> Previous Events </h2>
+        </div>
         <div className="imagecontainer">
           <div className="h222">
             {Events.map((members) => (
@@ -75,7 +86,7 @@ const Glimpse = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

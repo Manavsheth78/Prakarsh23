@@ -7,13 +7,14 @@ const About = () => {
       <div className="heading">
         <h2
           className="abouthead"
-          data-aos="zoom-out"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="500"
+          // data-aos="zoom-out"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-out"
+          // data-aos-delay="500"
         >
           About us
         </h2>
+        <h2 className="front-text"> About us </h2>
       </div>
       <div className="container about__container">
         <div

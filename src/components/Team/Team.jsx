@@ -62,7 +62,18 @@ function Team() {
   return (
     <section className="project" id="project">
       <Container>
-        <h2 className="headingteam">The Team that made it possible</h2>
+        <div className="heading">
+          <h2
+            className="abouthead mx-auto"
+            // data-aos="zoom-out"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-out"
+            // data-aos-delay="500"
+          >
+            Team
+          </h2>
+          <h2 className="front-text mx-auto"> Team</h2>
+        </div>
         <Row>
           <Col size={12}>
             <TrackVisibility>
