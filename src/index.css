@@ -53,16 +53,75 @@ img {
   width: 100%;
   object-fit: cover;
 }
+.heading {
+  position: relative;
+  overflow: hidden;
+}
+.abouthead {
+  text-align: center;
+  font-family: "valorant";
+  background-clip: text;
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+  /* position: relative; */
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  /* height: 18.75rem; */
+  /* margin-bottom: -5rem; */
+  /* font-size: 500%; */
+  /* color: var(--bg); */
+  font-style: normal;
+  font-weight: 700;
+  left: -2.8%;
+  top: 0;
+  font-size: 240px;
+  line-height: 300px;
+  /* -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;*/
+  opacity: 0.4;
+  /* -webkit-text-stroke: 1px white; */
+  /* color: black; */
+  color: rgba(74, 180, 61, 0.6);
+
+  /* color: hsla(0, 0%, 100%, 0.05); */
+}
+
+.front-text {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  width: 100vw;
+  text-align: center;
+  top: 110px;
+  color: var(--text-s);
+  background: var(--bg);
+}
 
 /* ========= medium device media query============= */
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
+  .heading .abouthead {
+    font-size: 80px;
+  }
+  .front-text {
+    font-size: 20px;
+    top: 130px;
+  }
 }
 /* ========= small device media query============= */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-ms);
+  }
+  .heading .abouthead {
+    font-size: 60px;
+  }
+  .front-text {
+    font-size: 15px;
+    top: 135px;
   }
 }

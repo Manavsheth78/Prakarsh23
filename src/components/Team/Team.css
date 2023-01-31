@@ -1,145 +1,123 @@
-.headingteam{
-    text-align: center;
-    font-family: "valorant";
-    background: linear-gradient(
-    111.17deg,
-    rgba(255, 255, 255, 0.04) 0.84%,
-    rgba(255, 255, 255, 0.01) 63.92%
-  );
-  mix-blend-mode: normal;
-  background: linear-gradient(
-    180deg,
-    #3fd72c 38.75%,
-    rgba(49, 87, 44, 0) 78.85%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
-}
-
 .project p {
-    color: white;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px auto 30px auto;
-    text-align: center;
-    width: 56%;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
 }
 
 .project .nav.nav-pills {
-    width: fit-content;
-    margin: 0 auto;
-    border-radius: 100px;
-    
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 100px;
 }
 
 .project .nav.nav-pills .nav-item {
-    width: 50%;
+  width: 50%;
 }
 
 .project .nav.nav-pills .nav-link {
-    background-color: transparent;
-    
-    color: #fff;
-    width: 100%;
-    font-size: 17px;
-    letter-spacing: 0.8px;
-    font-weight: 500;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    text-align: center;
-    z-index: 0;
+  background-color: transparent;
+
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
 }
 
 .project .nav.nav-pills .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    border-radius: 10px;
-    background: #31572c;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #31572c;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
 }
 
 .project .nav.nav-pills .nav-link.active::before {
-    width: 100% !important;
+  width: 100% !important;
 }
 
-
 .proj-imgbx {
-    position: relative;
-    border-radius: 30px;
-    overflow: hidden;
-    width: 200px;
-    margin-bottom: 24px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 200px;
+  margin-bottom: 24px;
 }
 
 .proj-imgbx::before {
-    content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    opacity: 0.85;
-    position: absolute;
-    width: 100%;
-    height: 0;
-    transition: 0.4s ease-in-out;
+  content: "";
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
 }
 
 .proj-imgbx:hover::before {
-    height: 100%;
+  height: 100%;
 }
 
 .proj-txtx {
-    position: absolute;
-    text-align: center;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s ease-in-out;
-    opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
 }
 
 .proj-imgbx:hover .proj-txtx {
-    top: 50%;
-    opacity: 1;
+  top: 50%;
+  opacity: 1;
 }
 
 .proj-txtx h4 {
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1.1em;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
 }
 
 .proj-txtx span {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.8px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
 }
 
 .link {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 .linkimg {
-    width: 50px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
+  width: 50px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .background-image-right {
-    top: 20%;
-    position: absolute;
-    bottom: 0;
-    width: 35%;
-    right: 0;
-    z-index: -4;
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
 }

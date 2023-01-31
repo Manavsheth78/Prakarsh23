@@ -1,23 +1,11 @@
 #About {
   overflow: hidden;
+  position: relative;
 }
 
 .heading .abouthead {
   text-align: center;
   font-family: "valorant";
-  /* background: linear-gradient(
-    111.17deg,
-    rgba(255, 255, 255, 0.04) 0.84%,
-    rgba(255, 255, 255, 0.01) 63.92%
-  );
-  mix-blend-mode: normal;
-  background: linear-gradient(
-    180deg,
-    #3fd72c 38.75%,
-    rgba(49, 87, 44, 0) 78.85%
-  ); */
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   background-clip: text;
   box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
   /* position: relative; */
@@ -26,12 +14,35 @@
   overflow: hidden;
   /* height: 18.75rem; */
   /* margin-bottom: -5rem; */
-  font-size: 500%;
-  color: black;
-
-  -webkit-text-fill-color: black;
+  /* font-size: 500%; */
+  /* color: var(--bg); */
+  font-style: normal;
+  font-weight: 700;
+  left: -2.8%;
+  top: 0;
+  font-size: 240px;
+  line-height: 300px;
+  /* -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #00fd65;
+  -webkit-text-stroke-color: white;*/
+  opacity: 0.4;
+  /* -webkit-text-stroke: 1px white; */
+  /* color: black; */
+  color: rgba(74, 180, 61, 0.6);
+
+  /* color: hsla(0, 0%, 100%, 0.05); */
+}
+
+.front-text {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  width: 100vw;
+  text-align: center;
+  top: 110px;
+  color: var(--text-s);
+  background: var(--bg);
 }
 
 .about__container {
@@ -71,10 +82,18 @@
     grid-template-columns: 1fr;
     gap: 0;
     flex-direction: column-reverse;
+    margin: 0 auto 3rem;
   }
   .about__img {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 0 auto 3rem;
+  }
+  .heading .abouthead {
+    font-size: 80px;
+  }
+  .front-text {
+    font-size: 20px;
+    top: 130px;
   }
   .about__content p {
     margin: 1rem 0 1.5rem;
@@ -87,9 +106,16 @@
     width: 65%;
     margin: 0 auto 3rem;
   }
-
+  .heading .abouthead {
+    font-size: 60px;
+  }
+  .front-text {
+    font-size: 15px;
+    top: 135px;
+  }
   .about__content {
-    text-align: center;
+    padding: 0 0rem;
+    text-align: left;
   }
   .about__content p {
     margin: 1.5rem 0;

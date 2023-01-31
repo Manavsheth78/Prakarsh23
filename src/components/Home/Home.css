@@ -296,11 +296,12 @@
   .home__container {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 0rem;
   }
 
   .home__logo {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 1rem 4.75rem;
   }
   .home__logo-img p {
     margin-bottom: 18rem;
