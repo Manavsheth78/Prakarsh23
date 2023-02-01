@@ -1,6 +1,10 @@
+.f {
+  background: black;
+}
 .footer {
   display: grid;
   grid-template-columns: 50% 35%;
+  grid-template-rows: 70% 10%;
   gap: 10%;
   /* margin-top: 10rem; */
   background: black;
@@ -42,8 +46,38 @@
   font-size: 15px;
 }
 
+.belowhr {
+  border-top: 0.1px solid grey;
+  display: flex;
+  justify-content: center;
+}
+
+.belowhr img {
+  /*  border-top: 0.5px solid grey;*/
+  position: relative;
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.icon a {
+  margin: 0 5px;
+  font-size: 25px;
+  color: white;
+}
 @media (max-width: 600px) {
   .footer {
+    display: block;
+  }
+
+  .left img {
+    width: 91vw;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
     display: grid;
     grid-template-columns: 1fr;
     background: black;
@@ -58,12 +92,15 @@
     /* align-self: center; */
     justify-self: center;
     padding: 3px 15px;
+
   }
-  .right {
-    font-size: 50%;
+  .belowhr img {
+    /*  border-top: 0.5px solid grey;*/
+
+    width: 90vw;
   }
   .right .finfo .flinks {
-    font-size: 20px;
+    font-size: 2vh;
     display: block;
     text-decoration: none;
     color: white;

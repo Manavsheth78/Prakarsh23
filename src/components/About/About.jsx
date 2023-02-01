@@ -21,7 +21,7 @@ const About = () => {
           className="about__content"
           data-aos="fade-right"
           data-aos-offset="300"
-          data-aos-delay="700"
+          data-aos-delay="600"
           data-aos-easing="ease-in-sine"
         >
           <p>
