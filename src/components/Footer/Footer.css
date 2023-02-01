@@ -7,7 +7,12 @@
   grid-template-rows: 70% 10%;
   gap: 10%;
   /* margin-top: 10rem; */
-  /*  */
+  background: black;
+  color: white;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 .ficons {
   margin: 15px;
@@ -31,6 +36,14 @@
   display: block;
   text-decoration: none;
   color: white;
+}
+ .btm img{
+  width: 25px;
+}
+.btm{
+  align-items: center;
+  display: inline;
+  font-size: 15px;
 }
 
 .belowhr {
@@ -64,6 +77,22 @@
     display: flex;
     justify-content: center;
     width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    background: black;
+    box-sizing: border-box;
+    height: 60vh;
+    gap: 0;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+  .left img{
+    width: 100%;
+    /* align-self: center; */
+    justify-self: center;
+    padding: 3px 15px;
+
   }
   .belowhr img {
     /*  border-top: 0.5px solid grey;*/
