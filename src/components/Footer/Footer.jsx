@@ -4,7 +4,7 @@ import footer from "../../assets/footer.png";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { AiFillPhone } from "react-icons/ai";
-// import { belowfooterlogo } from "../../assets/belowfooterlogo.png";
+import belowfooterlogo from "../../assets/belowfooterlogo.png";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="finfo">
             <a href="#" className="flinks">
               {" "}
-              <IoLocationSharp className="ficons" /> Sardar Vallabhai Patel
+              <IoLocationSharp className="ficons" />Sardar Vallabhai Patel
               institute of Technology{" "}
             </a>
             <a href="#" className="flinks">
@@ -34,11 +34,13 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        {/* <hr />
-        <div className="belowhr">
+         {/*<hr/>*/}
+       <div className="belowhr">
           <img src={belowfooterlogo} />
-        </div> */}
+        </div> 
+       
       </div>
+
     </section>
   );
 };

@@ -11,16 +11,16 @@ import Glimpse from "./components/Glimpse/Glimpse";
 const App = () => {
   return (
     <>
-      <Suspense fallback={<Loader />}>
+      {/*<Suspense fallback={<Loader />}>
         <NavBar />
         <Home />
-        <About />
+        <About />*/}
         {/* <Event /> */}
-        <Team />
+  {/*      <Team />
         <Sponsor />
-        <Glimpse />
+        <Glimpse />*/}
         <Footer />
-      </Suspense>
+      {/*</Suspense>*/}
     </>
   );
 };
