@@ -1,10 +1,13 @@
+.f {
+  background: black;
+}
 .footer {
   display: grid;
   grid-template-columns: 50% 35%;
   grid-template-rows: 70% 10%;
   gap: 10%;
   /* margin-top: 10rem; */
-  background: black;
+  /*  */
 }
 .ficons {
   margin: 15px;
@@ -30,64 +33,47 @@
   color: white;
 }
 
-.belowhr{
+.belowhr {
   border-top: 0.1px solid grey;
+  display: flex;
+  justify-content: center;
 }
 
-.belowhr img{
-/*  border-top: 0.5px solid grey;*/
-  position:relative;
+.belowhr img {
+  /*  border-top: 0.5px solid grey;*/
+  position: relative;
   width: 50vw;
-  left: 10px;
-  bottom: -2px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.icon a {
+  margin: 0 5px;
+  font-size: 25px;
+  color: white;
 }
 @media (max-width: 600px) {
-  .footer{
+  .footer {
     display: block;
   }
 
-  .left img{
-    width: 50vw;
+  .left img {
+    width: 91vw;
   }
-  .left{
+  .left {
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  .belowhr img{
-/*  border-top: 0.5px solid grey;*/
+  .belowhr img {
+    /*  border-top: 0.5px solid grey;*/
 
-  width: 90vw;
-}
-.right .finfo .flinks {
-  font-size: 2vh;
-  display: block;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-  /*.footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    background: black;
-    box-sizing: border-box;
-    height: 60vh;
-    align-items: center;
-     justify-content: space-around; 
-  }
-  .left {
-    width: 100%;
-    align-self: center; 
-    justify-self: center;
-  }
-  .right {
-    font-size: 50%;
+    width: 90vw;
   }
   .right .finfo .flinks {
-    font-size: 20px;
+    font-size: 2vh;
     display: block;
     text-decoration: none;
     color: white;
-  } */
+  }
 }
